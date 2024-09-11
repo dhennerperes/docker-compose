@@ -1,0 +1,9 @@
+{
+    "plugin_name": "postgresql-database-plugin",
+    "allowed_roles": "myapp-db-role",
+    "connection_url": "postgresql://{{username}}:{{password}}@localhost:5432/financial_services_account",
+    "max_open_connections": 5,
+    "max_connection_lifetime": "5s",
+    "username": "financial-services",
+    "password": "mypassword"
+}
